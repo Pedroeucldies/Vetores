@@ -1,10 +1,10 @@
 # Vetores
 //1)
 
-#include <stdio.h>
+    #include <stdio.h>
 
-int main() 
-{
+    int main() 
+    {
     
     int vetor[10];
     int i, maior;
@@ -25,13 +25,13 @@ int main()
     printf("O maior número é: %d\n", maior);
 
     return 0;
-}
+    }
 
 //2)
 
-#include <stdio.h>
-int main() 
-{
+    #include <stdio.h>
+    int main() 
+    {
     
     int vetor[10];
     int i;
@@ -63,14 +63,14 @@ int main()
     printf("Diferença: %d\n", diferenca);
 
     return 0;
-}
+    }
 
 //3)
 
-#include <stdio.h>
+    #include <stdio.h>
 
-int main() 
-{
+    int main() 
+    {
     
     int vetor[10];
     int i;
@@ -92,14 +92,14 @@ int main()
     }
 
     return 0;
-}
+    }
 
 //4)
 
-#include <stdio.h>
+    #include <stdio.h>
 
-int Primo(int num) 
-{
+    int Primo(int num) 
+    {
     
     if (num <= 1) {
         return 0;
@@ -111,9 +111,9 @@ int Primo(int num)
         }
     }
     return 1;
-}
-int main() 
-{
+    }
+    int main() 
+    {
     
     int vetor[10];
     int i;
@@ -131,13 +131,13 @@ int main()
         }
     }
     return 0;
-}
+    }
 
 //5)
 
-#include <stdio.h>
-int main() 
-{
+    #include <stdio.h>
+    int main() 
+    {
     
     int vetor[8];
     int i, numero, posicao = -1;
@@ -162,4 +162,4 @@ int main()
         printf("O número %d não existe no vetor.\n", numero);
     }
     return 0;
-}
+    }
